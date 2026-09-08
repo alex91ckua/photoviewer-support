@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Help and contact information for Photo Viewer for Synology.">
+  <meta name="color-scheme" content="light dark">
+  <title>Support — Photo Viewer for Synology</title>
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Photo Viewer for Synology home">
+      <img src="assets/app-icon.png" width="40" height="40" alt="">
+      <span>Photo Viewer</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="support.html" aria-current="page">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main id="main" class="document-page">
+    <header class="document-header support-header">
+      <p class="eyebrow">Help</p>
+      <h1>How can we help?</h1>
+      <p class="intro">If Photo Viewer is not connecting or something does not look right, the answers below cover the most common issues.</p>
+      <a class="button primary" href="mailto:alexmasliychuk@gmail.com">Email support</a>
+    </header>
+
+    <section class="support-grid" aria-label="Frequently asked questions">
+      <article class="support-card">
+        <h2>The app cannot connect to my NAS</h2>
+        <p>Confirm that the address includes the correct protocol and port, such as <code>https://nas.example.com:5001</code>. Your iPhone or iPad must be able to reach that address on its current network.</p>
+      </article>
+
+      <article class="support-card">
+        <h2>My certificate is not accepted</h2>
+        <p>A valid TLS certificate is the safest option. If your NAS uses a self-signed certificate, the sign-in screen can allow it, but only enable this option for a NAS and network you trust.</p>
+      </article>
+
+      <article class="support-card">
+        <h2>Two-step verification is enabled</h2>
+        <p>Sign in with your normal credentials and enter the one-time code when requested. Enabling “Remember Me” lets the App use the trusted-device token supplied by your NAS.</p>
+      </article>
+
+      <article class="support-card">
+        <h2>Photos or albums are missing</h2>
+        <p>Check that the Synology account has permission to access the relevant Personal Space or Shared Space content in Synology Photos, then refresh the App.</p>
+      </article>
+
+      <article class="support-card">
+        <h2>How are my credentials stored?</h2>
+        <p>The session identifier is stored in the iOS Keychain. Your password is stored there only when you choose “Remember Me.” Read the <a href="privacy.html">Privacy Policy</a> for full details.</p>
+      </article>
+
+      <article class="support-card">
+        <h2>How do I restore a purchase?</h2>
+        <p>Open the Stories purchase screen and select “Restore Purchases.” Make sure the device is signed in to the Apple Account that made the original purchase.</p>
+      </article>
+    </section>
+
+    <section class="contact-card" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Still need help?</h2>
+      </div>
+      <div>
+        <p>Email <a href="mailto:alexmasliychuk@gmail.com">alexmasliychuk@gmail.com</a> and include the App version, iOS version, NAS model, DSM version, and a short description of the issue.</p>
+        <p>Please do not send your password, one-time codes, session identifiers, or private photos.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Photo Viewer for Synology is an independent application and is not affiliated with or endorsed by Synology Inc.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+    <p>&copy; 2026 Photo Viewer for Synology.</p>
+  </footer>
+</body>
+</html>
