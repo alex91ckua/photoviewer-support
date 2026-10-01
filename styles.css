@@ -9,6 +9,7 @@
   --accent: #1768e5;
   --accent-strong: #0c4eb8;
   --accent-soft: #e2edff;
+  --story-accent: #d94f32;
   --shadow: 0 24px 70px rgba(47, 72, 117, 0.12);
   --radius-large: 2rem;
   --radius-medium: 1.25rem;
@@ -151,6 +152,10 @@ h1 {
   max-width: 14ch;
   margin-bottom: 1.4rem;
   font-size: clamp(2.8rem, 7vw, 5.8rem);
+}
+
+.story-highlight {
+  color: var(--story-accent);
 }
 
 h2 {
@@ -445,6 +450,7 @@ footer a {
     --accent: #70a9ff;
     --accent-strong: #9fc5ff;
     --accent-soft: #182d51;
+    --story-accent: #ff9274;
     --shadow: 0 24px 70px rgba(0, 0, 0, 0.25);
   }
 

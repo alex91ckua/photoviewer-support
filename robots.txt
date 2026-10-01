@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nasstories.app/sitemap.xml
