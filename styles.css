@@ -171,8 +171,22 @@ p {
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.8rem;
   margin-top: 2rem;
+}
+
+.app-store-badge {
+  display: inline-flex;
+  flex: 0 0 auto;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.app-store-badge img {
+  display: block;
+  width: auto;
+  height: 3.25rem;
 }
 
 .button {
@@ -407,6 +421,10 @@ footer a {
   .hero-actions {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .app-store-badge {
+    align-self: flex-start;
   }
 }
 
